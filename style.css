@@ -2,9 +2,54 @@
 
 #body-part {
   font-family: 'Albert Sans', sans-serif;
+  margin: 0rem;
 }
+
+header{
+    height: 12vh;
+}
+
+.page-icon{
+    display: inline;
+    position: absolute;
+    top: 1.2rem;
+    left: 3rem;
+}
+
 .header-navbar{
   display: flex;
+  position: absolute;
+  right: 10rem;
+  top: 1.2rem;
   flex-direction: row;
-;
+  list-style: none;
+}
+
+.nav-item{
+    padding-left: 20px;
+    color: #160d4f;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+main{
+    background-image: linear-gradient(to bottom right, #0F3460, #533483);
+    height: 88vh;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+}
+
+#IndexHero-title{
+    padding: 0rem;
+    margin: 0rem;
+    color: white;
+    font-size: 3rem;
+    margin-left: 10rem;
+}
+
+#IndexHero-subtitle{
+    font-weight: ;
+    margin-left: 10rem;
+    color: rgb(185, 185, 185);
 }
