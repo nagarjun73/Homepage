@@ -33,7 +33,7 @@ header{
 }
 
 main{
-    background-image: linear-gradient(to bottom right, #0F3460, #533483);
+    background-image: linear-gradient(to bottom right, #533483, #16213E);
     height: 88vh;
     display: flex;
     justify-content:left;
@@ -45,11 +45,21 @@ main{
     margin: 0rem;
     color: white;
     font-size: 3rem;
-    margin-left: 10rem;
+    margin-left: 8rem;
+    transition: 500ms;
 }
 
 #IndexHero-subtitle{
-    font-weight: ;
-    margin-left: 10rem;
+    font-weight: 300;
+    margin-left: 8rem;
     color: rgb(185, 185, 185);
+}
+
+.IndexHero-image{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    width: 40vw;
+    margin-left: 4rem;
+    margin-top: 1rem;
 }
