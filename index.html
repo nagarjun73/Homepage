@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link CSS -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
     <title>IT Solutions</title>
 </head>
 <body id="body-part">
@@ -34,6 +41,7 @@
           </ul>
     </header>
     <main>
+        <section id="IndexHero">
         <div>
             <h1 id="IndexHero-title">Modern problems require</br> modern solutions</h1>
             <h3 id="IndexHero-subtitle">We are here to offer end to end Business Services.</h3>
@@ -41,7 +49,55 @@
         <div>
             <img class="IndexHero-image" src="images/indexHero.png">
         </div>
+    </section>
+    <section id="container-partners">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <img class="swiper-slide" src="images/partners/Paytm.png">
+            <img class="swiper-slide" src="images/partners/paypal.png">
+            <img class="swiper-slide" src="images/partners/Impact Cart.png">
+            <img class="swiper-slide" src="images/partners/hetzner-logo-thumb.png">
+            <img class="swiper-slide" src="images/partners/digitalocean-2-logo.png">
+            <img class="swiper-slide" src="images/partners/cashfree.png">
+            <img class="swiper-slide" src="images/partners/Paytm.png">
+            <img class="swiper-slide" src="images/partners/paypal.png">
+            <img class="swiper-slide" src="images/partners/Impact Cart.png">
+            <img class="swiper-slide" src="images/partners/hetzner-logo-thumb.png">
+            <img class="swiper-slide" src="images/partners/digitalocean-2-logo.png">
+            <img class="swiper-slide" src="images/partners/cashfree.png">
+            <img class="swiper-slide" src="images/partners/Paytm.png">
+            <img class="swiper-slide" src="images/partners/paypal.png">
+            <img class="swiper-slide" src="images/partners/Impact Cart.png">
+            <img class="swiper-slide" src="images/partners/hetzner-logo-thumb.png">
+            <img class="swiper-slide" src="images/partners/digitalocean-2-logo.png">
+            <img class="swiper-slide" src="images/partners/cashfree.png">
+            </div>
+        </div>
+    </section>
     </main>
-    <script src="https://kit.fontawesome.com/e2c8c5dcbc.js" crossorigin="anonymous"></script>  
+    <script src="https://kit.fontawesome.com/e2c8c5dcbc.js" crossorigin="anonymous"></script>
+
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> 
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 5,
+            centeredSlides: false,
+            spaceBetween: 30,
+            autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+          },
+          pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+      </script> 
 </body>
 </html>
