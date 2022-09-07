@@ -7,25 +7,41 @@
 
 /* HEADER */
 
-header{
+.header{
+    position: fixed;
+    width: 100vw;
     height: 12vh;
+    background-color: white;
+    z-index: 10;
+}
+/* \/page header fixed \/ */
+.content {
+  padding: 16px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.sticky + .content {
+  padding-top: 102px;
+}
+
+/* /\ page header fixed /\ */
+
+#page-icon img {
+    cursor: pointer;
 }
 
 #topbar{
-
-}
-
-.page-icon{
-    display: inline;
-    position: absolute;
-    top: 1.2rem;
-    left: 3rem;
-    cursor: pointer;
+    position: fixed;
+    top: 1.25rem;
+    margin-left: 5rem;
 }
 
 .header-navbar{
   display: flex;
-  position: absolute;
+  position: fixed;
   right: 5rem;
   top: 1.2rem;
   flex-direction: row;
@@ -46,8 +62,8 @@ header{
     display: flex;
     justify-content:left;
     align-items: center;
-    background-image: linear-gradient(to bottom right, #533483, #16213E);
-    height: 88vh;
+    background-image: linear-gradient(to bottom right, #533483, #2a206a);
+    height: 100vh;
 }
 
 #IndexHero-title{
@@ -79,7 +95,7 @@ header{
     padding-left: 8rem;
     padding-right: 8rem;
     width: auto;
-    background-color: #F5F5F5; 
+    background-color: #F5F5F5;
 }
 
 .swiper-wrapper{
@@ -106,6 +122,8 @@ header{
 .Our-services{
     height: 120vh;
     width: 100%;
+    background-image: linear-gradient(#ffffff, #f7f7f8);
+    padding-bottom: 0rem;
 }
 
 .all-cards-section{
@@ -135,6 +153,7 @@ header{
     box-shadow:  #EEEEEE 0px 0px 20px;
     width: 70rem;
     transition: 500ms;
+    background-color: white;
 }
 
 .card1:hover{
@@ -166,6 +185,7 @@ header{
     box-shadow:  #EEEEEE 0px 0px 20px;
     width: 70rem;
     transition: 500ms;
+    background-color: white;
 }
 .card2:hover{
     box-shadow:  #ababab 0px 0px 20px;
@@ -208,6 +228,7 @@ header{
     box-shadow:  #EEEEEE 0px 0px 20px;
     width: 70rem;
     transition: 500ms;
+    background-color: white;
 }
 .card3:hover{
     box-shadow:  #ababab 0px 0px 20px;
@@ -239,6 +260,7 @@ header{
     box-shadow:  #EEEEEE 0px 0px 20px;
     width: 70rem;
     transition: 500ms;
+    background-color: white;
 }
 .card4:hover{
     box-shadow:  #ababab 0px 0px 20px;
@@ -268,9 +290,74 @@ header{
 
 .heading-text h1{
     font-size: 2.5rem;
-    color: #253847;
+    color: #2a206a;
     margin-bottom: 0rem;
 }
 .heading-text p{
-    color: #9e9fb4;
+    color: #4d4476;
+}
+/* LAST SECTION */
+#respect{
+    background-color: #f7f7f8;
+    height: 100vh;
+    width: auto;
+    padding-top: 0rem;
+}
+
+.respect-left-content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 10rem;
+    left: 10rem;
+    width: 25rem;
+}
+.respect-left-content h1 {
+    color: #2a206a;
+    font-size: 2.5rem;
+    margin-bottom: 0px;
+  }
+.respect-left-content p {
+color: #4d4476;
+}
+
+.respect-left-content ul{
+    list-style: none;
+    padding-left: 0rem;
+  }
+
+.respect-left-content ul li {
+    display: flex
+}
+.respect-left-content ul li p {
+  margin: 0rem;
+}
+.respect-left-content ul li i {
+    color: #1AD48E;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.respect-right-content{
+    position: relative;
+    align-items: center;
+    height: 90vh;
+    width: 50vw;
+    display: flex;
+    left: 40rem;
+    bottom: 25rem;
+    background-image: url("images/respect/lines.png");
+    background-size: cover;
+}
+
+#respect-right-content-img {
+  display: flex;
+  height: 70vh;
+  width: 50vw;
+}
+
+footer{
+      height: 50vh;
+      width: 100%;
+      background-color: #2a206a;
 }

@@ -12,15 +12,15 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
-    <title>IT Solutions</title>
+    <title>Solutions</title>
 </head>
 <body id="body-part">
           <!-- Navigation -->
-    <header>
+    <header class="header" id="myHeader">
         <nav id="topbar">
-        <div class="page-icon">
-            <img class="nav-link" src="images/icon/it solutions.png">
-        </div>
+          <div id="page-icon">
+            <img src="images/icon/it solutions.png">
+            </div>
         <ul class="header-navbar">
             <li class="nav-item">
               <a class="nav-link" >Home</a>
@@ -83,7 +83,7 @@
     <section class="Our-services"  >
       <div class="all-cards-section">
         <!-- upper cards -->
-      <div class="upper-cards">  
+      <div class="upper-cards">
       <div class="card1">
           <img src="images/ourservices/web-dev.jpg" class="card-img-top">
           <div class="card-body">
@@ -101,7 +101,7 @@
     </div>
     <!-- lower cards -->
   </div>
-    <div class="lower-cards">  
+    <div class="lower-cards">
       <div class="card3">
           <img src="images/ourservices/digial-marketing.jpg" class="card-img-top">
           <div class="card-body">
@@ -122,13 +122,41 @@
       <h1>Our services</h1>
       <p>Our End to End Business Services and latest product line up are one of it's kind, check out our portfolio.</p>
     </div>
-
+    </section>
+    <section>
+      <div id="respect">
+        <div class="respect-left-content">
+        <h1>We Respect your Business</h1>
+        <p>Our core values of the company have always been to serve our clients in the best possible way and make sure they're comfortable.</p>
+        <ul>
+          <li><i class="fa-regular fa-square-check"></i><p>Pay & Forget Solutions</p></li>
+          <li><i class="fa-regular fa-square-check"></i><p>Cloud based Platform</p></li>
+          <li><i class="fa-regular fa-square-check"></i><p>Safe & Secure Payment Gateways</p></li>
+          <li><i class="fa-regular fa-square-check"></i><p>Complimentary Pro Feature</p></li>
+          <li><i class="fa-regular fa-square-check"></i><p>Modern & Robust Workflows</p></li>
+          <li><i class="fa-regular fa-square-check"></i><p>Professional Support</p></li>
+        </ul>
+      </div>
+      <div class="respect-right-content">
+        <img id="respect-right-content-img" src="images/respect/19199655.png">
+      </div>
+      </div>
     </section>
     </main>
+    <footer>
+        <div>
+          <h1>Talk to us</h1>
+          <button type="button">Book a Consultation</button>
+        </div>
+    </footer>
+
+
+    <!-- MAIN JS SCRIPT  -->
+    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/e2c8c5dcbc.js" crossorigin="anonymous"></script>
 
      <!-- Swiper JS -->
-     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> 
+     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".mySwiper", {
@@ -148,6 +176,6 @@
           prevEl: ".swiper-button-prev",
         },
       });
-      </script> 
+      </script>
 </body>
 </html>
