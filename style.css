@@ -191,7 +191,7 @@
 .upper-cards{
     display: inline-flex;
     position: relative;
-    left: 15rem;
+    left: 10rem;
     flex-direction: row;
     width: 40vw;
     height: 50vh;
@@ -205,7 +205,7 @@
     padding: 1.5rem;
     justify-content: center;
     border-radius: 20px 20px;
-    box-shadow:  #EEEEEE 0px 0px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
     width: 70rem;
     transition: 500ms;
     background-color: white;
@@ -237,7 +237,7 @@
     margin: 1rem;
     padding: 1.5rem;
     border-radius: 20px 20px;
-    box-shadow:  #EEEEEE 0px 0px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
     width: 70rem;
     transition: 500ms;
     background-color: white;
@@ -266,7 +266,7 @@
     display: inline-flex;
     position: relative;
     margin-top: 1rem;
-    left: 7rem;
+    left: 10rem;
     flex-direction: row;
     width: 40vw;
     height: 50vh;
@@ -280,7 +280,7 @@
     margin: 1rem;
     padding: 1.5rem;
     border-radius: 20px 20px;
-    box-shadow:  #EEEEEE 0px 0px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
     width: 70rem;
     transition: 500ms;
     background-color: white;
@@ -312,7 +312,7 @@
     margin: 1rem;
     padding: 1.5rem;
     border-radius: 20px 20px;
-    box-shadow:  #EEEEEE 0px 0px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
     width: 70rem;
     transition: 500ms;
     background-color: white;
