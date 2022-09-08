@@ -14,7 +14,7 @@
     />
     <title>Solutions</title>
 </head>
-<body id="body-part">
+<body onmouseout=myDropupfunction() id="body-part">
           <!-- Navigation -->
     <header class="header" id="myHeader">
         <nav id="topbar">
@@ -28,10 +28,16 @@
             <li class="nav-item">
               <a class="nav-link" >Who we are</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" >Services</a>
+            <li onmouseover=myDropfunction() class="nav-item">
+              <a id="dropdown-button" class="nav-link" >Services <i class="fa-sharp fa-solid fa-angle-down"></i></a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item">Web Development</a></li>
+                <li><a class="dropdown-item">App Development</a></li>
+                <li><a class="dropdown-item">Digital Marketing</a></li>
+                <li><a class="dropdown-item">IT Consultation</a></li>
+              </ul>
             </li>
-            <li class="nav-item">
+            <li id="nav-item-work" class="nav-item">
               <a class="nav-link">Our work</a>
             </li>
             <li class="nav-item">
@@ -41,6 +47,7 @@
                 <i class="fa-regular fa-user"></i>
             </li>
           </ul>
+          <div class="dropdown">
         </nav>
     </header>
     <main>

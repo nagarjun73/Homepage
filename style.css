@@ -13,6 +13,7 @@
     height: 12vh;
     background-color: white;
     z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 10px;
 }
 /* \/page header fixed \/ */
 .content {
@@ -55,6 +56,42 @@
     margin-left: 1rem;
     margin-right: 1rem;
 }
+
+
+/* DROPDOWN */
+.dropdown-menu{
+    height: 8rem;
+    list-style: none;
+    background-color: white;
+    box-shadow:  rgba(0, 0, 0, 0.2) 0px 0px 10px;
+    border-radius: 1rem;
+    padding:1rem;
+    position: absolute;
+    top: 2rem;
+    width: 10rem;
+    visibility:hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#dropdown-button{
+    padding-bottom: 2rem;
+}
+
+.visible {
+  visibility:visible;
+}
+
+.dropdown-item{
+    text-decoration: none;
+    padding-left: 0.6rem;
+}
+.dropdown-item:hover{
+    color: #1AD48E;
+    transition: 300ms;
+}
+
 
 /* INDEX HERO */
 
@@ -407,6 +444,7 @@ footer button{
       font-size: 0.85rem;
       margin-top: 0.75rem;
       margin-bottom: 0.75rem;
+      cursor: pointer;
 }
 
 #social-media{
@@ -429,6 +467,7 @@ footer button{
       transition: 300ms;
       position: relative;
       right: 1rem;
+      cursor: pointer;
 }
 
 footer ul svg:hover{
