@@ -92,7 +92,6 @@
     transition: 300ms;
 }
 
-
 /* INDEX HERO */
 
 #IndexHero{
@@ -100,7 +99,7 @@
     justify-content:left;
     align-items: center;
     background-image: linear-gradient(to bottom right, #533483, #2a206a);
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #IndexHero button{
@@ -116,6 +115,10 @@
   margin-bottom: 0.75rem;
   margin-left: 8rem;
   cursor: pointer;
+  transition: 300ms;
+}
+#IndexHero button:hover{
+  background-color: white;
 }
 
 #IndexHero-title{
@@ -134,10 +137,10 @@
 }
 
 .IndexHero-image{
-    position: absolute;
-    top: 8rem;
-    right: 5rem;
-    width: 40vw;
+    position: relative;
+    top: 5rem;
+    left: 8rem;
+    max-width: 35rem;
 }
 
 /* Partners Container */
@@ -437,6 +440,7 @@ footer button{
       width: 10rem;
       height: 2.5rem;
       background-color: #1AD48E;
+      filter: grayscale(100%) opacity(1);
       color: #2a206a;
       border-radius: 0.5rem;
       border: none;
@@ -445,6 +449,10 @@ footer button{
       margin-top: 0.75rem;
       margin-bottom: 0.75rem;
       cursor: pointer;
+      transition: 250ms;
+}
+footer button:hover{
+      filter: grayscale(0%) opacity(1);
 }
 
 #social-media{
@@ -534,4 +542,11 @@ footer ul svg:hover{
       border-bottom: 1rem;
       padding: 0rem;
       margin-top: 0.5rem;
+}
+
+/* mobile Compatible */
+@media only screen and (max-width: 370px) {
+  body{
+    max-width: 370px;
+  }
 }
